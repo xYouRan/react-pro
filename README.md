@@ -7,8 +7,14 @@
 
 项目的规范
 1.eslint 代码规范
+
+npx eslint init
+
 2.husky 控制 git 的规范，git commit 代码之前，我们的代码必须跑一遍 eslint
 
-github token:
+npm husky install
 
+3. git 管理代码
+
+我的自己项目：github token
 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
