@@ -16,5 +16,7 @@ npm husky install
 
 3. git 管理代码
 
+4. git log 日志
+
 我的自己项目：github token
 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
