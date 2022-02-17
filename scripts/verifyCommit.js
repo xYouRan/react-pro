@@ -10,7 +10,7 @@ const commitRE =
 if (!commitRE.test(msg)) {
   if (!mergeRe.test(msg)) {
     console.log('git commit信息格式有问题');
-    console.error(`需要使用以下格式 type(module):message 
+    console.error(`需要使用以下格式 type(module)：message 
     具体逻辑请看scripts/verifyCommit.js`);
     process.exit(1)
   }
